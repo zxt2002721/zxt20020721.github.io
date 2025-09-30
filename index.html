@@ -1,3 +1,200 @@
 <!doctype html>
-<meta http-equiv="refresh" content="0; url=./Xiaotian Zhang_CV.pdf">
-<link rel="canonical" href="./Xiaotian Zhang_CV.pdf">
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Xiaotian Zhang — Personal Homepage</title>
+  <meta name="description" content="Personal website of Xiaotian Zhang — M.S. in Computer Science at Northeastern University. Research interests: LLMs, HCI, Healthcare AI, IoT." />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.85em' x='0.1em' font-size='85'%3E%F0%9F%93%9D%3C/text%3E%3C/svg%3E">
+  <style>
+    :root{--bg:#ffffff;--fg:#0f172a;--muted:#64748b;--card:#f8fafc;--border:#e2e8f0;--accent:#2563eb;--accent-fg:#ffffff}
+    @media (prefers-color-scheme: dark){:root{--bg:#0b1220;--fg:#e5e7eb;--muted:#94a3b8;--card:#0f172a;--border:#1f2a3a;--accent:#60a5fa;--accent-fg:#0b1220}}
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.6 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1080px;margin:0 auto;padding:24px}
+    .nav{position:sticky;top:0;backdrop-filter:saturate(180%) blur(8px);background:color-mix(in oklab,var(--bg) 88%, transparent);border-bottom:1px solid var(--border);z-index:10}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;max-width:1080px;margin:0 auto;padding:10px 24px}
+    .nav a{font-weight:600}
+    .nav .links{display:flex;gap:16px;flex-wrap:wrap}
+    header.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;padding:32px 24px;margin-top:8px}
+    @media (max-width:900px){header.hero{grid-template-columns:1fr}}
+    .card{border:1px solid var(--border);background:var(--card);border-radius:16px;padding:20px}
+    .name{font-size:36px;font-weight:900;letter-spacing:.2px;margin:0 0 8px}
+    .tag{display:inline-block;font-size:12px;color:var(--muted);border:1px solid var(--border);padding:2px 8px;border-radius:999px;margin:4px 6px 0 0}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:999px;border:1px solid var(--border);background:transparent;margin-right:10px}
+    .btn.primary{background:var(--accent);color:var(--accent-fg);border-color:transparent}
+    h2{margin:0 0 12px 0;font-size:22px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    @media (max-width:900px){.grid{grid-template-columns:1fr}}
+    .item{padding:12px 0;border-top:1px dashed var(--border)}
+    .item:first-child{border-top:none}
+    .meta{font-size:14px;color:var(--muted)}
+    ul{margin:8px 0 0 20px}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+    .chip{border:1px solid var(--border);border-radius:999px;padding:4px 10px;color:var(--muted);font-size:13px}
+    .kpis{display:flex;gap:16px;flex-wrap:wrap;margin-top:8px}
+    .kpi{padding:8px 12px;border-radius:10px;border:1px solid var(--border);background:var(--card)}
+    .proj-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    @media (max-width:1100px){.proj-grid{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:700px){.proj-grid{grid-template-columns:1fr}}
+    .proj{border:1px solid var(--border);background:var(--card);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:6px}
+    .proj h3{margin:0;font-size:16px}
+    .proj .meta{margin:0}
+    .pdf-wrap{height:78vh;border:1px solid var(--border);border-radius:12px;overflow:hidden}
+    .pdf{width:100%;height:100%;border:0}
+    footer{border-top:1px solid var(--border);padding:20px;color:var(--muted);text-align:center;margin-top:24px}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Xiaotian Zhang",
+    "jobTitle":"Graduate Student, Computer Science",
+    "url":"https://zxt2002721.github.io/",
+    "alumniOf":["Northeastern University","Zhejiang University of Finance and Economics"],
+    "knowsAbout":["Large Language Models","Human-Computer Interaction","Healthcare AI","IoT"],
+    "sameAs":["https://github.com/zxt2002721"]
+  }
+  </script>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#top" aria-label="Home">Xiaotian Zhang</a>
+      <div class="links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <a href="#cv">CV</a>
+      </div>
+    </div>
+  </nav>
+
+  <header id="top" class="hero container">
+    <section class="card">
+      <h1 class="name">Xiaotian Zhang</h1>
+      <p class="meta">M.S. in Computer Science @ Northeastern University (Seattle) · WPI Research Intern</p>
+      <div class="chips">
+        <span class="chip">Large Language Models</span>
+        <span class="chip">Human–AI Collaboration</span>
+        <span class="chip">Healthcare & Adherence</span>
+        <span class="chip">HCI</span>
+        <span class="chip">IoT</span>
+      </div>
+      <p style="margin-top:10px">My current work explores LLM-based synthesis and evaluation pipelines for chronic-care adherence.</p>
+      <div style="margin-top:12px">
+        <a class="btn primary" href="./Xiaotian Zhang_CV.pdf" download>Download CV (PDF)</a>
+        <a class="btn" href="https://github.com/zxt2002721" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="#contact">Email</a>
+      </div>
+      <div class="kpis">
+        <div class="kpi">GPA 4.0 (NEU)</div>
+        <div class="kpi">LLM × HCI × Health</div>
+        <div class="kpi">Edge–Cloud IoT</div>
+      </div>
+    </section>
+    <aside class="card">
+      <h2>News</h2>
+      <div class="item"><strong>Sep 2025</strong> — Drafting an AAAI workshop submission on adherence evaluation.</div>
+      <div class="item"><strong>May 2025</strong> — Joined WPI as a Research Intern (advised by A.P. Xiaozhong Liu).</div>
+      <div class="item"><strong>Apr 2025</strong> — Led a course project on DB app development with visualization.</div>
+      <div class="item"><strong>2024</strong> — Built an edge–cloud hardhat compliance system on Jetson Nano + YOLO.</div>
+    </aside>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>I am a CS graduate student at Northeastern University (Seattle). Broadly, I am interested in language models and interactive systems for healthcare: how to capture patient behaviors (adherence, lifestyle, conversations), how to summarize them reliably, and how to design workflows that clinicians can trust and control.</p>
+      <p>Previously, at the Institute of Automation, Chinese Academy of Sciences (CASIA), I worked on vascular health prediction using physiological signals for diabetic foot research.</p>
+    </section>
+
+    <section id="research" class="card">
+      <h2>Research Interests</h2>
+      <div class="chips">
+        <span class="tag">Memory-augmented LLMs</span>
+        <span class="tag">Human-in-the-loop Evaluation</span>
+        <span class="tag">Clinical Dialogue & Adherence</span>
+        <span class="tag">Interactive Reporting</span>
+        <span class="tag">IoT Sensing & Edge–Cloud</span>
+      </div>
+    </section>
+
+    <section id="publications" class="card">
+      <h2>Publications / Manuscripts</h2>
+        
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects (Selected)</h2>
+      <div class="proj-grid">
+        <article class="proj">
+          <h3>Human–AI Adherence Report UI</h3>
+          <p class="meta">LLM · HCI · Healthcare · 2025</p>
+          <p>Doctor-in-the-loop editor + charting: structured sections, inline edits, minimal clicks; supports synthesized dialogues and device trends.</p>
+        </article>
+        <article class="proj">
+          <h3>Database Application (Course Project Lead)</h3>
+          <p class="meta">Java · MySQL · Visualization · 2025</p>
+          <p>GUI app with CRUD, admin view, charts, and backend API integrations; integrated ML service for social media analysis.</p>
+        </article>
+        <article class="proj">
+          <h3>IoT Hardhat Compliance Detection</h3>
+          <p class="meta">Jetson Nano · YOLO · Cloud Control · 2024</p>
+          <p>Edge–cloud pipeline with C client + Python UI; remote device ops and data sync via cloud.</p>
+        </article>
+        <article class="proj">
+          <h3>Online Insurance Risk Assessment</h3>
+          <p class="meta">Python · Vue · 2023</p>
+          <p>End-to-end data cleaning, modeling, and deployment; web forms estimating fraud risk (80%+ accuracy).</p>
+        </article>
+        <article class="proj">
+          <h3>AlphaFold2 Protein Structure Analysis</h3>
+          <p class="meta">PyMOL · AF2 Attention · 2022</p>
+          <p>Compared predicted vs. experimental structures; analyzed attention mechanisms relative to AlphaFold.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>Experience</h2>
+      <div class="item">
+        <strong>Research Intern</strong>, Worcester Polytechnic Institute — <span class="meta">May 2025 – Present · Advisor: A.P. Xiaozhong Liu</span>
+        <ul>
+          <li>LLM-based synthetic data, SFT dataset pipeline, and evaluation UI for adherence-focused tasks.</li>
+          <li>Built prototypes for interactive physician reports with device trends and dialogue evidence.</li>
+        </ul>
+      </div>
+      <div class="item">
+        <strong>Research Intern</strong>, Institute of Automation, Chinese Academy of Sciences — <span class="meta">Jul 2023 – Aug 2023 · Mentor: Dr. Zuchang Ma</span>
+        <ul>
+          <li>Physiological-signal–based vascular health prediction for diabetic foot study; feature engineering and model tuning.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="cv" class="card">
+      <h2>CV — PDF Preview</h2>
+      <div class="pdf-wrap"><iframe class="pdf" src="./Xiaotian Zhang_CV.pdf" title="Resume PDF"></iframe></div>
+      <p class="meta">If the embedded viewer doesn't load, <a href="./Xiaotian Zhang_CV.pdf" download>download the PDF</a>.</p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your.email@domain.com">zxt2002721@gmail.com</a> · GitHub: <a href="https://github.com/zxt2002721" target="_blank" rel="noopener">zxt2002721</a></p>
+      <p class="meta">I am currently exploring Ph.D. opportunities (Fall 2026) especially in AI/LLM, HCI, and healthcare-oriented labs.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="y"></span> Xiaotian Zhang · Built with GitHub Pages</div>
+  </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
